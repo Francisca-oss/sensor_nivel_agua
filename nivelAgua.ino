@@ -33,11 +33,11 @@ void loop() {
   display.setTextColor(WHITE);
   display.setCursor(0,0);
   display.println("Distancia: ");
-  display.setCursor(1,0);
+  display.setCursor(50,5);
   display.println(distancia);
-  display.setCursor(4,0);
+  display.setCursor(50,7);
   display.println("cm");
-  display.setCursor(6,0);
+  display.setCursor(0,25);
   display.println(porciento);
   display.println("%");
   display.display();
